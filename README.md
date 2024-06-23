@@ -2,7 +2,8 @@
 
 [![hf_space](https://img.shields.io/badge/🤗-SpeechLLM%20HuggingFace-blue.svg)](https://huggingface.co/collections/skit-ai/speechllm-66605bfb37a54d4e4a60efe2)
 [![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)](https://github.com/skit-ai/SpeechLLM/blob/main/LICENSE)
-[![github](https://img.shields.io/badge/-Github-black?logo=github)](https://github.com/skit-ai/SpeechLLM.git)[![github](https://img.shields.io/github/stars/skit-ai/SpeechLLM.svg?style=social)](https://github.com/skit-ai/SpeechLLM.git)  
+[![github](https://img.shields.io/badge/-Github-black?logo=github)](https://github.com/skit-ai/SpeechLLM.git)[![GitHub stars](https://img.shields.io/github/stars/skit-ai/SpeechLLM?style=social)](https://github.com/skit-ai/SpeechLLM/stargazers)
+
 
 ![](./speechllm.png)
 
