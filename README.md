@@ -37,17 +37,12 @@ model.generate_meta(
 
 Try the model in [Google Colab Notebook](https://colab.research.google.com/drive/1uqhRl36LJKA4IxnrhplLMv0wQ_f3OuBM?usp=sharing).
 
-## Model Details
-
-- **Developed by:** Skit AI
-- **Authors:** [Shangeth Rajaa](https://huggingface.co/shangeth), [Abhinav Tushar](https://huggingface.co/lepisma)
-- **Language:** English
-- **Finetuned from model:** [HubertX](https://huggingface.co/facebook/hubert-xlarge-ll60k), [TinyLlama](https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0)
-- **Model Size:** 2.1 B
-- **Checkpoint:** 2000 k steps (bs=1)
-- **Adapters:** r=4, alpha=8
-- **lr** : 1e-4
-- **gradient accumulation steps:** 8
+## Model Weights
+We released the speechllm-2B and speechllm-1.5B model checkpoints on huggingface :hugs:.
+| **Model**         | **Speech Encoder**                                                                  | **LLM**                                                                                            | url                                                           |   |
+|-------------------|-------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|---------------------------------------------------------------|---|
+| **speechllm-2B**  | [facebook/hubert-xlarge-ll60k](https://huggingface.co/facebook/hubert-xlarge-ll60k) | [TinyLlama/TinyLlama-1.1B-Chat-v1.0](https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0)    | [Huggingface](https://huggingface.co/skit-ai/speechllm-2B)    |   |
+| **speechllm1.5B** | [microsoft/wavlm-large](https://huggingface.co/microsoft/wavlm-large)               | [ TinyLlama/TinyLlama-1.1B-Chat-v1.0 ]( https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0) | [Huggingface]( https://huggingface.co/skit-ai/speechllm-1.5B) |   |
 
 
 ## Checkpoint Result
