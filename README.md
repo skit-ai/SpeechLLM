@@ -41,7 +41,7 @@ model.generate_meta(
 '''
 ```
 
-Try the model in [Google Colab Notebook](https://colab.research.google.com/drive/1uqhRl36LJKA4IxnrhplLMv0wQ_f3OuBM?usp=sharing). Also checkout our [blog](https://tech.skit.ai/speech-conversational-llms/) on SpeechLLM for end-to-end conversational agents.
+Try the model in [Google Colab Notebook](https://colab.research.google.com/drive/1uqhRl36LJKA4IxnrhplLMv0wQ_f3OuBM?usp=sharing). Also checkout our [blog](https://tech.skit.ai/speech-conversational-llms/) on SpeechLLM for end-to-end conversational agents(User Speech -> Response).
 
 ## Model Weights
 We released the speechllm-2B and speechllm-1.5B model checkpoints on huggingface :hugs:.
