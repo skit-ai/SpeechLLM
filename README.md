@@ -59,8 +59,7 @@ We released the speechllm-2B and speechllm-1.5B model checkpoints on huggingface
 | **librispeech-test-clean** | Read Speech         |         6.73        |     0.9536     |             |                |
 | **librispeech-test-other** | Read Speech         |         9.13        |     0.9099     |             |                |
 | **CommonVoice test**       | Diverse Accent, Age |        24.27        |     0.8680     |    0.6251   |     0.6457     |
-| **ML Spoken Words test**   | Short Utterance     |        36.12        |     0.6587     |             |                |
-| **IEMOCAP test**           | Emotional Speech    |        44.15        |     0.7557     |             |                |
+| **ML Spoken Words test**   | Short Utterance(~1s)|        36.12        |     0.6587     |             |                |
 
 ## Disclaimer
 The models provided in this repository are not perfect and may produce errors in Automatic Speech Recognition (ASR), gender identification, age estimation, accent recognition, and emotion detection. Additionally, these models may exhibit biases related to gender, age, accent, and emotion. Please use with caution, especially in production environments, and be aware of potential inaccuracies and biases.
