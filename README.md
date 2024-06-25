@@ -24,10 +24,11 @@ from transformers import AutoModel
 model = AutoModel.from_pretrained("skit-ai/speechllm-2B", trust_remote_code=True)
 
 model.generate_meta(
-	audio_path="path-to-audio.wav", #16k Hz, mono
-	instruction="Give me the following information about the audio [SpeechActivity, Transcript, Gender, Emotion, Age, Accent]",
-	max_new_tokens=500, 
-	return_special_tokens=False
+    audio_path="path-to-audio.wav", #16k Hz, mono
+    audio_tensor=torchaudio.load("path-to-audio.wav")[2], # [Optional] either audio_path or audio_tensor directly
+    instruction="Give me the following information about the audio [SpeechActivity, Transcript, Gender, Emotion, Age, Accent]",
+    max_new_tokens=500, 
+    return_special_tokens=False
 )
 
 # Model Generation
