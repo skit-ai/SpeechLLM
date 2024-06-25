@@ -55,12 +55,19 @@ We released the speechllm-2B and speechllm-1.5B model checkpoints on huggingface
 
 ## Latest Checkpoint Result
 
+### speechllm-2B
 |         **Dataset**        |       **Type**      | **Word Error Rate** | **Gender Acc** | **Age Acc** | **Accent Acc** |
 |:--------------------------:|:-------------------:|:-------------------:|:--------------:|:-----------:|:--------------:|
-| **librispeech-test-clean** | Read Speech         |         6.73        |     0.9536     |             |                |
-| **librispeech-test-other** | Read Speech         |         9.13        |     0.9099     |             |                |
-| **CommonVoice test**       | Diverse Accent, Age |        24.27        |     0.8680     |    0.6251   |     0.6457     |
-| **ML Spoken Words test**   | Short Utterance(~1s)|        36.12        |     0.6587     |             |                |
+| **librispeech-test-clean** | Read Speech         |         6.73        |     0.9496     |             |                |
+| **librispeech-test-other** | Read Speech         |         9.13        |     0.9217     |             |                |
+| **CommonVoice test**       | Diverse Accent, Age |        25.66        |     0.8680     |    0.6041   |     0.6959     |
+
+### speechllm-1.5B
+|         **Dataset**        |       **Type**      | **Word Error Rate** | **Gender Acc** | **Age Acc** | **Accent Acc** |
+|:--------------------------:|:-------------------:|:-------------------:|:--------------:|:-----------:|:--------------:|
+| **librispeech-test-clean** | Read Speech         |        11.51        |     0.9594     |             |                |
+| **librispeech-test-other** | Read Speech         |        16.68        |     0.9297     |             |                |
+| **CommonVoice test**       | Diverse Accent, Age |        26.02        |     0.9476     |    0.6498   |     0.8121     |
 
 ## Disclaimer
 The models provided in this repository are not perfect and may produce errors in Automatic Speech Recognition (ASR), gender identification, age estimation, accent recognition, and emotion detection. Additionally, these models may exhibit biases related to gender, age, accent, and emotion. Please use with caution, especially in production environments, and be aware of potential inaccuracies and biases.
