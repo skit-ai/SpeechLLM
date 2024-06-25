@@ -1,0 +1,36 @@
+dataset,set,audio_path,isspeech,transcript,gender,emotion,age,accent,audio_len
+ARCA23K,train,path-to-audio.wav,False,__unknown__,__unknown__,__unknown__,__unknown__,__unknown__,0.953469387755102
+ARCA23K,train,path-to-audio.wav,False,__unknown__,__unknown__,__unknown__,__unknown__,__unknown__,0.4072335600907029
+ARCA23K,train,path-to-audio.wav,False,__unknown__,__unknown__,__unknown__,__unknown__,__unknown__,5.369387755102041
+ARCA23K,train,path-to-audio.wav,False,__unknown__,__unknown__,__unknown__,__unknown__,__unknown__,7.0
+ARCA23K,train,path-to-audio.wav,False,__unknown__,__unknown__,__unknown__,__unknown__,__unknown__,0.5535374149659864
+CREMA-D,train,path-to-audio.wav,True,I'm on my way to the meeting,Male,Angry,young,,2.3356875
+CREMA-D,train,path-to-audio.wav,True,I think I have a doctor's appointment,Female,Neutral,middle-age,,2.535875
+CREMA-D,train,path-to-audio.wav,True,That is exactly what happened,Female,Neutral,middle-age,,2.1354375
+CREMA-D,train,path-to-audio.wav,True,The surface is slick,Male,Neutral,middle-age,,2.43575
+CREMA-D,train,path-to-audio.wav,True,I'm on my way to the meeting,Female,Sad,middle-age,,2.7026875
+CommonVoice,train,path-to-audio.wav,True,"The game, I mean?",Female,,middle-age,Oceania,3.0675
+CommonVoice,train,path-to-audio.wav,True,These systems obligate unemployed people to undertake work that is beneficial to their community.,Female,,senior,America,7.061625
+CommonVoice,train,path-to-audio.wav,True,The Tribute Communities Centre was constructed to replace the Oshawa Civic Auditorium.,Male,,young,America,4.5435
+CommonVoice,train,path-to-audio.wav,True,He appears to have influenced Rainaldetto di Ranuccio of Spoleto.,Male,,middle-age,America,6.1275
+CommonVoice,train,path-to-audio.wav,True,The game is currently in its third edition.,Male,,middle-age,Oceania,4.349625
+IEMOCAP,train,path-to-audio.wav,True,"No.  You can't think that way.  I mean it's good--it's good that you're--that you're calling, you know. you can't",Male,Neutral,,,6.29025
+IEMOCAP,train,path-to-audio.wav,True,"We could get a good debate going about this, don't you think?  Intemperate tots.",Male,Angry,,,4.2199375
+IEMOCAP,train,path-to-audio.wav,True,"Oh See, I don't care what you do, see.  You can paint yourself green and run naked through the Place Vendome and run off with all of the men of the world.  I shan't say a word, just as long as you love me best.",Male,Happy,,,16.6299375
+IEMOCAP,train,path-to-audio.wav,True,"No, you'll never forget him.",Male,Neutral,,,2.1560625
+IEMOCAP,train,path-to-audio.wav,True,Look that bag has my entire life in it and you just lost it.,Female,Frustrated,,,7.5
+LibriSpeech,train-clean-100,path-to-audio.wav,True,BUT HE COULD NOT GET OFF THE GROUND WHAT IS IT REDCOAT HAS SOMETHING HAPPENED TO YOU IT IS JUST PETER RABBIT YOU DON'T HAVE ANYTHING TO FEAR FROM ME CRIED PETER THE LOOK OF TERROR WHICH HAD BEEN IN THE EYES OF REDCOAT DIED OUT,Male,,,,15.745
+LibriSpeech,train-clean-100,path-to-audio.wav,True,A WHAT STAMMERED PETER A CAST OFF SUIT OF CLOTHES FROM ANY MEMBER OF THE SNAKE FAMILY REPLIED CRESTY SOMEWHAT IMPATIENTLY NOW DON'T FORGET PETER I'VE GOT TO GO HOUSE HUNTING BUT YOU'LL FIND ME THERE OR HEREABOUTS IF IT HAPPENS THAT YOU FIND ONE OF THOSE,Male,,,,16.55
+LibriSpeech,train-clean-100,path-to-audio.wav,True,THE WORD ITSELF CANNOT BE ADEQUATELY RENDERED BY ANY ENGLISH WORD FOR IT IS USED IN RELATION TO MANY KINDS OF MIMETIC MAGIC AS WELL AS IN RELATION TO THE PERFORMANCE OF MANY RELIGIOUS ACTS OF FAITH,Male,,,,10.925
+LibriSpeech,train-clean-100,path-to-audio.wav,True,BUT IF A FELLER KNOWS THE COUNTRY AND KEEPS HIS HEAD LEVEL HE CAN'T LOSE JEFFERSON HAD LOOKED AT SO MANY PROSPECTUSES AND SO MANY PICTURES OF MINES AND PINE TREES AND SMELTERS THAT I THINK HE'D FORGOTTEN THAT HE'D NEVER BEEN IN THE COUNTRY ANYWAY WHAT'S TWO HUNDRED MILES,Male,,,,14.935
+LibriSpeech,train-clean-100,path-to-audio.wav,True,A SURE SIGN SHE WAS PERPLEXED MERELY A BOY TO SEE AFTER THE FOWLS AND TO WAIT ABOUT THE HOUSE WHEN NECESSARY I LOVE FOWLS SAID JERRY SWEETLY AND LOOKING AS INNOCENT AS A BABE AND DOGS AND THINGS LIKE THAT,Male,,,,16.37
+MLSpokenWords,train,path-to-audio.wav,True,seven,Male,,,,1.0
+MLSpokenWords,train,path-to-audio.wav,True,nine,Female,,,,1.0
+MLSpokenWords,train,path-to-audio.wav,True,eight,Female,,,,1.0
+MLSpokenWords,train,path-to-audio.wav,True,right,Male,,,,1.0
+MLSpokenWords,train,path-to-audio.wav,True,seven,Female,,,,1.0
+RAVDESS,train,path-to-audio.wav,True,Kids are talking by the door,Male,Neutral,,,3.370041666666667
+RAVDESS,train,path-to-audio.wav,True,Kids are talking by the door,Female,Happy,,,3.536875
+RAVDESS,train,path-to-audio.wav,True,Dogs are sitting by the door,Female,Sad,,,3.670333333333333
+RAVDESS,train,path-to-audio.wav,True,Dogs are sitting by the door,Female,Sad,,,3.8038125
+RAVDESS,train,path-to-audio.wav,True,Kids are talking by the door,Female,Angry,,,3.670333333333333

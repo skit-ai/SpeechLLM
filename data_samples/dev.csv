@@ -1,0 +1,13 @@
+dataset,set,audio_path,isspeech,transcript,gender,emotion,age,accent,audio_len
+ARCA23K,dev,path-to-audio.wav,False,__unknown__,__unknown__,__unknown__,__unknown__,__unknown__,5.146122448979592
+ARCA23K,dev,path-to-audio.wav,False,__unknown__,__unknown__,__unknown__,__unknown__,__unknown__,0.893968253968254
+CREMA-D,dev,path-to-audio.wav,True,I think I've seen this before,Male,Happy,middle-age,,2.402375
+CREMA-D,dev,path-to-audio.wav,True,I think I have a doctor's appointment,Male,Fearful,senior,,2.969625
+CommonVoice,dev,path-to-audio.wav,True,A ritzy limousine was driving along the fifth avenue.,Male,,young,Celtic,4.948125
+CommonVoice,dev,path-to-audio.wav,True,Something gets knocked down by a bulldozer.,Male,,young,America,3.988125
+LibriSpeech,dev-clean,path-to-audio.wav,True,FRIED BREAD FOR BORDERS,Female,,,,2.36
+LibriSpeech,dev-other,path-to-audio.wav,True,HOW CAN YOU SPEAK SO CRUELLY TO ME SHE ASKED,Female,,,,3.075
+MLSpokenWords,dev,path-to-audio.wav,True,stop,Female,,,,1.0
+MLSpokenWords,dev,path-to-audio.wav,True,down,Male,,,,1.0
+RAVDESS,dev,path-to-audio.wav,True,Dogs are sitting by the door,Female,Sad,,,3.370041666666667
+RAVDESS,dev,path-to-audio.wav,True,Dogs are sitting by the door,Female,Surprised,,,3.3033125
