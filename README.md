@@ -104,3 +104,12 @@ The models provided in this repository are not perfect and may produce errors in
 
 ## License
 This project is released under the Apache 2.0 license as found in the LICENSE file. The released checkpoints, and code are intended for research purpose subject to the license of [facebook/hubert-xlarge-ll60k](https://huggingface.co/facebook/hubert-xlarge-ll60k), [microsoft/wavlm-large](https://huggingface.co/microsoft/wavlm-large) and [ TinyLlama/TinyLlama-1.1B-Chat-v1.0 ]( https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0) models.
+
+## Cite
+```
+@misc{Rajaa_SpeechLLM_Multi-Modal_LLM,
+author = {Rajaa, Shangeth and Tushar, Abhinav},
+title = {{SpeechLLM: Multi-Modal LLM for Speech Understanding}},
+url = {https://github.com/skit-ai/SpeechLLM}
+}
+```
