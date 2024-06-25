@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this model, please cite it using these metadata."
+authors:
+- family-names: "Rajaa"
+  given-names: "Shangeth"
+- family-names: "Tushar"
+  given-names: "Abhinav"
+
+title: "SpeechLLM"
+abstract : ""
+type: model
+keywords:
+  - "multi-modal-llms"
+  - "llm"
+  - "speech"
+  - "conversational-ai"
+version: 1.0.0
+date-released: 2024-25-06
+url: "https://github.com/skit-ai/SpeechLLM"
+license: Apache-2.0
