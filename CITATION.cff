@@ -6,7 +6,7 @@ authors:
 - family-names: "Tushar"
   given-names: "Abhinav"
 
-title: "SpeechLLM"
+title: "SpeechLLM: Multi-Modal LLM for Speech Understanding"
 abstract : ""
 type: model
 keywords:
