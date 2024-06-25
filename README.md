@@ -7,7 +7,7 @@
 
 
 
-![](./speechllm.png)
+![](./assets/speechllm.png)
 
 SpeechLLM is a multi-modal LLM trained to predict the metadata of the speaker's turn in a conversation. speechllm-2B model is based on HubertX audio encoder and TinyLlama LLM. The model predicts the following:
 1. **SpeechActivity** : if the audio signal contains speech (True/False)
@@ -68,6 +68,34 @@ We released the speechllm-2B and speechllm-1.5B model checkpoints on huggingface
 | **librispeech-test-clean** | Read Speech         |        11.51        |     0.9594     |             |                |
 | **librispeech-test-other** | Read Speech         |        16.68        |     0.9297     |             |                |
 | **CommonVoice test**       | Diverse Accent, Age |        26.02        |     0.9476     |    0.6498   |     0.8121     |
+
+
+## Training
+
+### Dataset Preparation and Installation
+Install the necessary packages in the requirements.txt and take care of CUDA versions. Then prepare the audio dataset similar to data_samples/train.csv and data_samples/dev.csv, if new tasks eg: (noise, environment class) has to be added, then update the dataset.py accordingly.
+```bash
+pip install requirements.txt
+``` 
+
+### Train
+update the config in train.py, such as audio_encoder_name, llm_name, etc and other hyper parameters.
+```bash
+python train.py
+``` 
+
+### Evaluation
+After training, update checkpoint path and test dataset path(similar format to train/dev.csv).
+```bash
+python test.py
+``` 
+
+### Infer model in Streamlit app
+```bash
+streamlit run app.py
+```
+![](./assets/streamlit_app.png)
+
 
 ## Disclaimer
 The models provided in this repository are not perfect and may produce errors in Automatic Speech Recognition (ASR), gender identification, age estimation, accent recognition, and emotion detection. Additionally, these models may exhibit biases related to gender, age, accent, and emotion. Please use with caution, especially in production environments, and be aware of potential inaccuracies and biases.

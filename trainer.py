@@ -12,7 +12,7 @@ import random
 import re
 import json
 
-from model.encoder import get_audio_encoder, WhisperAudioEncoder, TransformerAudioEnoder, SpeechTokenizerEnoder, AudioCLIPEncoder
+from model.encoder import get_audio_encoder, TransformerAudioEnoder
 from model.connector import get_connector, LinearConnector, LinearPoolConnector, CNNConnector
 from model.llm import get_llm
 
